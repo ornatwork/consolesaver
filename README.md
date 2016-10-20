@@ -1,2 +1,2 @@
 # consolesaver
-Much like a screen saver, but just in the console, .net core code
+Much like a screen saver, just in the console, C# .net core 
