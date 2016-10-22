@@ -12,10 +12,16 @@ namespace ConsoleSaver
             for(int i=0; i<10000; i++)
             {               
                 String tmp = "";
+                String basest = "";
                 int current = rnd.Next(180);
                 // Fill and display    
-                tmp = tmp.PadRight( current, ' ') + '|';
+                tmp = basest.PadRight( current+3, ' ') + "/|\\";
                 Console.WriteLine(tmp);
+                tmp = basest.PadRight( current+3, ' ') + " | ";
+                Console.WriteLine(tmp);
+                tmp = basest.PadRight( current+3, ' ') + " | ";
+                Console.WriteLine(tmp);
+                
                 Thread.Sleep(100);
             }
         }
